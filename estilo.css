@@ -1,0 +1,29 @@
+.titulo{
+    text-align: center;
+    font-family: monospace;
+    margin-top: 90px;
+    color: white;
+    font-size: 25px;
+}
+.posicao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+img{
+    margin-right: 23px;
+    margin-top: 120px;
+}
+.DistTexto{
+    font-family: monospace;
+    color: white;
+    text-decoration: underline;
+}
+.distprof{
+    padding-left: 577px;
+}
+.distprad{
+    margin-left: 75px;
+}
