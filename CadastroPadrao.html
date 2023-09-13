@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Padrão</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <style>
+        body{
+            background-color: #325ee2;
+        }
+    </style>
+</head>
+<body>
+    <div class="titlecadastro">
+        <h1>Para realizar seu cadastro informe os dados solicitados</h1>
+    </div>
+    <div>
+        <form action="" method="get">
+            <div class = "tamanho">
+                <fieldset class = "fieldset">
+                <legend>Dados pessoais</legend>
+                <form action="#">
+                <div class = "espaço">
+                <label for="nome">Informe nome</label>
+                </div>
+            <input type="text" id="nome" placeholder="Informe nome">
+                <div class = "espaço">
+            <label for="email">Informe email</label>
+                </div>
+            <input type="email" id="email" placeholder="Ex: ooooo@gmail.com">
+                <div class = "espaço">
+            <label for="numero">Telephone</label>
+                </div>
+            <input type="number" id="numero" placeholder="Telephone">
+            <div class = "espaço">
+            <label for="RG">Informe RG</label>
+            </div>
+            <div class="espaço">
+            <input type="number" id="RG" placeholder="000000">
+            </div>
+            <div class="espaço">
+        </fieldset>
+        </div>
+    </form>
+        <input onclick="validados()" type="button" value="Enviar" >
+
+    </div>
+</body>
+</html>
